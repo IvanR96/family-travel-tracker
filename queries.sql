@@ -58,7 +58,7 @@ CREATE TABLE enrollment (
   PRIMARY KEY (student_id, class_id)
 );
 
--- Data to add to pgAdmin --
+-- Data to add to pgAdmin  for many to many--
 INSERT INTO student (first_name, last_name)
 VALUES ('Jack', 'Bauer');
 
