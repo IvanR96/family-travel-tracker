@@ -68,7 +68,7 @@ VALUES ('English Literature'), ('Maths'), ('Physics');
 INSERT INTO enrollment (student_id, class_id ) VALUES (1, 1), (1, 2);
 INSERT INTO enrollment (student_id ,class_id) VALUES (2, 2), (2, 3);
 
--- Join --
+-- Join for enrollment and AS use as well optional --
 SELECT *
 FROM enrollment 
 JOIN student ON student.id = enrollment.student_id
