@@ -79,7 +79,7 @@ FROM enrollment
 JOIN student ON student.id = enrollment.student_id
 JOIN class ON class.id = enrollment.class_id;
 
--- ALIAS --
+-- ALIAS To add info --
 SELECT s.id AS id, first_name, last_name, title
 FROM enrollment AS e
 JOIN student AS s ON s.id = e.student_id
